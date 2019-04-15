@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-modal';
 
-import { COLOR_PRIMARY, COLOR_BLACK } from '../styles/common';
+import { COLOR_BLACK } from '../styles/common';
 import { styles as globalStyles } from '../App';
 import { styles } from './session';
 
@@ -75,7 +75,7 @@ export default class Session extends Component {
         <div style={{ height: 184, marginHorizontal: 20, alignItems: 'center', justifyContent: 'center' }}>
           <textarea
             placeholder="Tell us more..."
-            onChangeText={message => this.setState({ message })}
+            onChange={message => this.setState({ message })}
             style={{ height: 160, width: '100%', flex: 1, fontSize: 16, color: COLOR_BLACK }}
             value={this.state.message}
           />

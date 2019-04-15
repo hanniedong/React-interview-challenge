@@ -1,9 +1,4 @@
-import timelineResponse from './data/timeline-response.json'
-
-const apiVersion = 'v1.0';
-const hostName = 'https://staging.hicleo.com';
-const baseURL = `${hostName}/api/${apiVersion}`;
-const token = 'z5mVg9vxVEFaaBX4skyMTJ06Lcbpq0'
+import timelineResponse from './data/timeline-response.json';
 
 function encodeQueryData(data) {
   const ret = [];
@@ -13,42 +8,24 @@ function encodeQueryData(data) {
   return ret.join('&');
 }
 
+// mock API call. don't review.
 function fetchSessions() {
   return new Promise(resolve => {
-    setTimeout(resolve(timelineResponse), 1000)
-  })
-}
-
-function requestSessionTimes(session_id, timeframe) {
-  debugger
-  return fetch(`${baseURL}/sessions/send_schedule_request/`, {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-    },
-    body: JSON.stringify({
-      session_id,
-      timeframe,
-    }),
+    setTimeout(resolve(timelineResponse), 1000);
   });
 }
 
+// mock API call. don't review.
+function requestSessionTimes(session_id, timeframe) {
+  return new Promise(resolve => {
+    setTimeout(resolve(timelineResponse), 1000);
+  });
+}
+
+// mock API call. don't review.
 function confirmSessionTime(session_id, session_time, scheduling_notes) {
-  debugger
-  return fetch(`${baseURL}/sessions/confirm_session_time/`, {
-    method: 'POST',
-    headers: {
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-    },
-    body: JSON.stringify({
-      session_id,
-      session_time,
-      scheduling_notes,
-    }),
+  return new Promise(resolve => {
+    setTimeout(resolve(timelineResponse), 1000);
   });
 }
 
