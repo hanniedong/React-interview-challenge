@@ -118,6 +118,51 @@
       ]
     },
     {
+      "identifier": "PRENATAL",
+      "title": "Schedule Prenatal Sessions",
+      "sessions": [
+        {
+          "session_number": 0,
+          "scheduled_for": null,
+          "expert": null,
+          "session_type": {
+            "id": 54,
+            "category_name": "Welcome",
+            "title": "Schedule Your Welcome Call",
+            "recommended_timing": "",
+            "duration": "",
+            "short_description": "On this call, we will get to know each other a bit more. It gives you a chance to ask any questions and me a chance to figure out how I can best support you and your family.",
+            "description": "Think of your Guide as your personal parenting pro. She will be your go-to for questions about all things related to babies, birth, new parenthood and more.\r\n\r\nThis short chat gives you an opportunity to get to know your Guide and for your Guide to get to know you and your family. *NOTE: Cleo is a family benefit, so we strongly recommend that both partners (if applicable) join.* \r\n\r\nThings you might want to chat about:\r\n\r\n- Any prenatal health complications for mom and baby\r\n- Any concerns you have about baby’s arrival, including around labor & delivery\r\n- Any questions about nursing, pumping or formula-feeding\r\n- Any challenges you’re currently facing or anticipate facing\r\n\r\nThis chat can take place via phone, Skype, What'sApp or Google Hangouts. Just message your Guide to let her know your preference.",
+            "what_to_expect": "",
+            "repeatable": false,
+            "timing": "",
+            "format": "",
+            "calendly_path": "welcome",
+            "identifier": "WELCOME",
+            "header_title": "Schedule a welcome call",
+            "navbar_title": "Your Welcome Call",
+            "schedule_button_text": "Schedule Call"
+          },
+          "status": "",
+          "location": null,
+          "other_location": "",
+          "feedback_expert": "",
+          "feedback_session": "",
+          "feedback_expert_additional_info": "",
+          "feedback_session_additional_info": "",
+          "id": 8927,
+          "no_count": true,
+          "requested_timeframe": "",
+          "proposed_time_1": null,
+          "proposed_time_2": null,
+          "proposed_time_3": null,
+          "proposed_time_4": null,
+          "recommended": false,
+          "scheduling_notes": ""
+        }
+      ]
+    },
+    {
       "identifier": "POSTPARTUM",
       "title": "Schedule Postpartum Sessions",
       "sessions": [
