@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import api from './api'
 import { COLOR_BEIGE, COLOR_PRIMARY } from './styles/common';
 import CarePlan from './components/CarePlan';
-import Session from './components/session';
+import {Session} from './components/session';
 import logo from './images/logo.png';
 
 export const styles = {
